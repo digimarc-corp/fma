@@ -1,0 +1,48 @@
+// Typedefs for FMA library -*- C++ -*-
+#ifndef DMRC_FMA_TYPEDEFS
+#define DMRC_FMA_TYPEDEFS
+
+#include "Internal/Simple.hpp"
+
+namespace DMRC {
+namespace FMA {
+namespace Typedefs {
+
+typedef ::DMRC::FMA::Simple<1> sQ1_t;
+typedef ::DMRC::FMA::Simple<2> sQ2_t;
+typedef ::DMRC::FMA::Simple<3> sQ3_t;
+typedef ::DMRC::FMA::Simple<4> sQ4_t;
+typedef ::DMRC::FMA::Simple<5> sQ5_t;
+typedef ::DMRC::FMA::Simple<6> sQ6_t;
+typedef ::DMRC::FMA::Simple<7> sQ7_t;
+typedef ::DMRC::FMA::Simple<8> sQ8_t;
+typedef ::DMRC::FMA::Simple<9> sQ9_t;
+typedef ::DMRC::FMA::Simple<10> sQ10_t;
+typedef ::DMRC::FMA::Simple<11> sQ11_t;
+typedef ::DMRC::FMA::Simple<12> sQ12_t;
+typedef ::DMRC::FMA::Simple<13> sQ13_t;
+typedef ::DMRC::FMA::Simple<14> sQ14_t;
+typedef ::DMRC::FMA::Simple<15> sQ15_t;
+typedef ::DMRC::FMA::Simple<16> sQ16_t;
+typedef ::DMRC::FMA::Simple<17> sQ17_t;
+typedef ::DMRC::FMA::Simple<18> sQ18_t;
+typedef ::DMRC::FMA::Simple<19> sQ19_t;
+typedef ::DMRC::FMA::Simple<20> sQ20_t;
+typedef ::DMRC::FMA::Simple<21> sQ21_t;
+typedef ::DMRC::FMA::Simple<22> sQ22_t;
+typedef ::DMRC::FMA::Simple<23> sQ23_t;
+typedef ::DMRC::FMA::Simple<24> sQ24_t;
+typedef ::DMRC::FMA::Simple<25> sQ25_t;
+typedef ::DMRC::FMA::Simple<26> sQ26_t;
+typedef ::DMRC::FMA::Simple<27> sQ27_t;
+typedef ::DMRC::FMA::Simple<28> sQ28_t;
+typedef ::DMRC::FMA::Simple<29> sQ29_t;
+typedef ::DMRC::FMA::Simple<30> sQ30_t;
+typedef ::DMRC::FMA::Simple<31> sQ31_t;
+
+
+} // namespace Typedefs
+} // namespace FMA
+} // namespace DMRC
+
+#endif // DMRC_FMA_TYPEDEFS

@@ -1,0 +1,47 @@
+---
+Language: Cpp
+Standard: c++03
+
+## Misc/Alignment Rules
+AlignAfterOpenBracket: Align
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+AllowShortIfStatementsOnASingleLine: Never
+PointerAlignment: Left
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+
+### Tabs/Indent Rules
+AccessModifierOffset: -4
+ContinuationIndentWidth: 4
+IndentPPDirectives: BeforeHash
+IndentWidth: 4
+NamespaceIndentation: None
+SpacesBeforeTrailingComments: 2
+TabWidth: 4
+UseTab: ForIndentation
+
+### Line Break Rules
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterEnum: false
+  AfterExternBlock: true
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BreakConstructorInitializersBeforeComma: true
+ColumnLimit: 0
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ReflowComments: false
+...
