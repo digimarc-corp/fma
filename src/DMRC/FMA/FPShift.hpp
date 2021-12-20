@@ -1,5 +1,5 @@
-#ifndef DMRC_FIXED_FPSHIFT_HPP
-#define DMRC_FIXED_FPSHIFT_HPP
+#ifndef DMRC_FMA_FPSHIFT_HPP
+#define DMRC_FMA_FPSHIFT_HPP
 
 namespace DMRC {
 namespace FMA {
@@ -17,4 +17,4 @@ struct _fpshift {};
 }  // namespace FMA
 }  // namespace DMRC
 
-#endif  // DMRC_FIXED_FPSHIFT_HPP
+#endif  // DMRC_FMA_FPSHIFT_HPP

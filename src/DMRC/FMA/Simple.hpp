@@ -1,5 +1,5 @@
-#ifndef DMRC_FIXED_SIMPLE_HPP
-#define DMRC_FIXED_SIMPLE_HPP
+#ifndef DMRC_FMA_SIMPLE_HPP
+#define DMRC_FMA_SIMPLE_HPP
 
 #include "Container.hpp"
 #include "FPMath.hpp"
@@ -194,4 +194,4 @@ Simple<N + N_lshift> operator<<(Simple<N> v, _fpshift<N_lshift> shift) {
 }  // namespace FMA
 }  // namespace DMRC
 
-#endif  // DMRC_FIXED_SIMPLE_HPP
+#endif  // DMRC_FMA_SIMPLE_HPP

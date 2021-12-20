@@ -1,5 +1,5 @@
-#ifndef DMRC_FIXED_FPMATH_HPP
-#define DMRC_FIXED_FPMATH_HPP
+#ifndef DMRC_FMA_FPMATH_HPP
+#define DMRC_FMA_FPMATH_HPP
 
 #include "Internal/ContainerType.hpp"
 #include "Internal/FPTypeTraits.hpp"
@@ -211,4 +211,4 @@ struct FPMath : Internal::FPTypeTraits<N, T> {
 }  // namespace FMA
 }  // namespace DMRC
 
-#endif  // DMRC_FIXED_FPMATH_HPP
+#endif  // DMRC_FMA_FPMATH_HPP

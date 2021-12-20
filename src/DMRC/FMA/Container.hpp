@@ -1,5 +1,5 @@
-#ifndef DMRC_FIXED_CONTAINER_HPP
-#define DMRC_FIXED_CONTAINER_HPP
+#ifndef DMRC_FMA_CONTAINER_HPP
+#define DMRC_FMA_CONTAINER_HPP
 
 #include "Internal/ContainerType.hpp"
 #include "Internal/FPTypeTraits.hpp"
@@ -30,4 +30,4 @@ struct Container {
 }  // namespace FMA
 }  // namespace DMRC
 
-#endif  // DMRC_FIXED_CONTAINER_HPP
+#endif  // DMRC_FMA_CONTAINER_HPP

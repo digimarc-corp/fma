@@ -1,5 +1,5 @@
-#ifndef DMRC_FIXED_INTERNAL_POW_HPP
-#define DMRC_FIXED_INTERNAL_POW_HPP
+#ifndef DMRC_FMA_INTERNAL_POW_HPP
+#define DMRC_FMA_INTERNAL_POW_HPP
 
 namespace DMRC {
 namespace FMA {
@@ -21,4 +21,4 @@ struct _pow<b, 0> {
 }  // namespace FMA
 }  // namespace DMRC
 
-#endif  // DMRC_FIXED_INTERNAL_POW_HPP
+#endif  // DMRC_FMA_INTERNAL_POW_HPP

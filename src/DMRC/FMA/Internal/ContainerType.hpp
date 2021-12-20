@@ -1,5 +1,5 @@
-#ifndef DMRC_FIXED_INTERNAL_CONTAINERTYPE_HPP
-#define DMRC_FIXED_INTERNAL_CONTAINERTYPE_HPP
+#ifndef DMRC_FMA_INTERNAL_CONTAINERTYPE_HPP
+#define DMRC_FMA_INTERNAL_CONTAINERTYPE_HPP
 
 #include "Comparison.hpp"
 #include "EnableIf.hpp"
@@ -165,4 +165,4 @@ struct ContainerType : _container_q<N>::valid_c {};
 }  // namespace FMA
 }  // namespace DMRC
 
-#endif  // DMRC_FIXED_INTERNAL_CONTAINERTYPE_HPP
+#endif  // DMRC_FMA_INTERNAL_CONTAINERTYPE_HPP

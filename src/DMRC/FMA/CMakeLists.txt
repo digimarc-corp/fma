@@ -1,4 +1,4 @@
-set (target_name dmrc_fixed)
+set (target_name dmrc_fma)
 
 set (target_source_files
 	Internal/Comparison.hpp

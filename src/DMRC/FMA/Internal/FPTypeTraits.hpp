@@ -1,5 +1,5 @@
-#ifndef DMRC_FIXED_INTERNAL_FPTYPETRAITS_HPP
-#define DMRC_FIXED_INTERNAL_FPTYPETRAITS_HPP
+#ifndef DMRC_FMA_INTERNAL_FPTYPETRAITS_HPP
+#define DMRC_FMA_INTERNAL_FPTYPETRAITS_HPP
 
 #include "EnableIf.hpp"
 #include "Pow.hpp"
@@ -44,4 +44,4 @@ const double FPTypeTraits<N_val, T>::smallest_fraction = 1.0 / _pow<2, N>::value
 }  // namespace FMA
 }  // namespace DMRC
 
-#endif  // DMRC_FIXED_INTERNAL_FPTYPETRAITS_HPP
+#endif  // DMRC_FMA_INTERNAL_FPTYPETRAITS_HPP

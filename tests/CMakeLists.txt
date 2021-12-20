@@ -32,7 +32,7 @@ add_executable(${target_name} ${target_source_files})
 set_target_properties(${target_name} PROPERTIES ${target_properties})
 target_link_libraries(${target_name}
 	gtest_main
-	dmrc_fixed
+	dmrc_fma
 )
 
 # Enroll the test in ctest

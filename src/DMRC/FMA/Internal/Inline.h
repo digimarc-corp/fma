@@ -1,3 +1,5 @@
+#ifndef DMRC_FMA_INTERNAL_INLINE
+#define DMRC_FMA_INTERNAL_INLINE
 
 #if DMRC_FMA_FORCE_INLINE
 	#ifdef _MSC_VER
@@ -18,3 +20,5 @@
 #else
 	#define dmrc_inline inline
 #endif
+
+#endif // DMRC_FMA_INTERNAL_INLINE
