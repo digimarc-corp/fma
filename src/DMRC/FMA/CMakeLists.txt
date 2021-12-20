@@ -1,5 +1,4 @@
 set (target_name dmrc_fixed)
-set (target_static ${target_name}_static)
 
 set (target_source_files
 	Internal/Comparison.hpp
@@ -49,9 +48,8 @@ set (target_link_libs_priv
 #
 
 add_library(${target_name} SHARED ${target_source_files})
-add_library(${target_static} STATIC ${target_source_files})
 
-foreach(target IN LISTS target_name target_static)
+foreach(target IN LISTS target_name)
 	set_target_properties(${target} PROPERTIES ${target_properties})
 
 	target_include_directories(${target}
