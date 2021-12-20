@@ -2,8 +2,8 @@
 #define DMRC_FIXED_INTERNAL_FPTYPETRAITS_HPP
 
 #include "Pow.hpp"
-#include <EnableIf.hpp>
-#include <TypeTraits.hpp>
+#include "EnableIf.hpp"
+#include "TypeTraits.hpp"
 
 namespace DMRC {
 namespace FMA {

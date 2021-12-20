@@ -3,9 +3,9 @@
 
 #include "Internal/ContainerType.hpp"
 #include "Internal/FPTypeTraits.hpp"
-#include <EnableIf.hpp>
-#include <TypeTraits.hpp>
-#include <Inline.h>
+#include "Internal/EnableIf.hpp"
+#include "Internal/TypeTraits.hpp"
+#include "Internal/Inline.h"
 
 namespace DMRC {
 namespace FMA {

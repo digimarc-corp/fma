@@ -3,7 +3,7 @@
 #include <string>
 
 #include <Internal/ContainerType.hpp>
-#include <TypeTraits.hpp>
+#include <Internal/TypeTraits.hpp>
 
 using namespace DMRC::FMA::Internal;
 

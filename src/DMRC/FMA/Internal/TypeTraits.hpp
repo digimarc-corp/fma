@@ -1,8 +1,8 @@
 #ifndef DMRC_TYPETRAITS_TYPETRAITS_HPP
 #define DMRC_TYPETRAITS_TYPETRAITS_HPP
 
-#include <Comparison.hpp>
-#include <EnableIf.hpp>
+#include "Comparison.hpp"
+#include "EnableIf.hpp"
 
 namespace DMRC {
 namespace TypeTraits {

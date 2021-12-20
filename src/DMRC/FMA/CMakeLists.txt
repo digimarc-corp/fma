@@ -2,11 +2,16 @@ set (target_name dmrc_fixed)
 set (target_static ${target_name}_static)
 
 set (target_source_files
+	Internal/Comparison.hpp
 	Internal/ContainerType.hpp
+	Internal/EnableIf.hpp
 	Internal/FPTypeTraits.hpp
+	Internal/Inline.h
 	Internal/Pow.hpp
+	Internal/TypeTraits.hpp
 	Container.hpp
 	FPMath.hpp
+	FPShift.hpp
 	Simple.hpp
 )
 
@@ -37,8 +42,6 @@ set (target_link_libs_pub
 )
 
 set (target_link_libs_priv
-	dmrc_core
-	dmrc_typetraits
 )
 
 #
