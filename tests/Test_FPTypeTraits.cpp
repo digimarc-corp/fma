@@ -12,11 +12,12 @@ static const bool DEBUG_PRINT_TYPE_INFO = true;
 static const bool DEBUG_PRINT_TYPE_INFO = false;
 #endif
 
-template <int N,
+template <int N_val,
           typename T,
           bool output = DEBUG_PRINT_TYPE_INFO,
           bool header = output>
 struct FPTypeTraits_Expectations {
+	static const int N = N_val;
 	inline static void run() {
 
 		if constexpr (header && output) {
