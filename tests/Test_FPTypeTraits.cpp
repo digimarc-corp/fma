@@ -24,7 +24,7 @@ struct FPTypeTraits_Expectations {
 			printf("[   INFO   ] Format, data_t, max_int, min_int, smallest_fraction\n");
 		}
 
-		using fptt = FPTypeTraits<N, T>;
+		typedef FPTypeTraits<N, T> fptt;
 		typedef typename fptt::data_t data_t;
 		EXPECT_TRUE(static_cast<bool>(is_integral<data_t>::value));
 
