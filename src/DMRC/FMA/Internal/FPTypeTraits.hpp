@@ -17,7 +17,7 @@ struct FPTypeTraits {
 	static_assert(DMRC::TypeTraits::is_integral<T>::value,
 	              "Fixed-point type must use an integral storage type!");
 	static_assert(DMRC::is_lte<N_val, DMRC::val_if<TypeTraits::is_unsigned<T>::value, sizeof(T) * 8, sizeof(T) * 8 - 1>::value>::value,
-	              "N must be less than the size of the storage type!");
+	              "N must be less or equal to the size of the storage type!");
 	static_assert(DMRC::is_gte<N_val, 0>::value,
 	              "N must be greater than zero!");
 

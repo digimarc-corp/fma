@@ -27,7 +27,7 @@ struct _container_q<64> {
 	static const bool is_valid = true;
 	typedef _container_q<64> valid_c;
 
-	typedef unsigned long min_unsigned_t;
+	typedef unsigned long long min_unsigned_t;
 	typedef void min_signed_t;
 
 	typedef min_unsigned_t unsigned_t;
@@ -44,8 +44,8 @@ struct _container_q<63> {
 	static const bool is_valid = true;
 	typedef _container_q<63> valid_c;
 
-	typedef unsigned long min_unsigned_t;
-	typedef long min_signed_t;
+	typedef unsigned long long min_unsigned_t;
+	typedef long long min_signed_t;
 
 	typedef min_unsigned_t unsigned_t;
 	typedef min_signed_t signed_t;
@@ -62,10 +62,10 @@ struct _container_q<32> {
 	typedef _container_q<32> valid_c;
 
 	typedef unsigned int min_unsigned_t;
-	typedef long min_signed_t;
+	typedef long long min_signed_t;
 
 	typedef unsigned int unsigned_t;
-	typedef long signed_t;
+	typedef long long signed_t;
 
 	typedef signed_t default_t;
 

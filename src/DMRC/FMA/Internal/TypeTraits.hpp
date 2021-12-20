@@ -185,13 +185,13 @@ struct get_container_after<char> { typedef short type; };
 template <>
 struct get_container_after<short> { typedef int type; };
 template <>
-struct get_container_after<int> { typedef long type; };
+struct get_container_after<int> { typedef long long type; };
 template <>
 struct get_container_after<unsigned char> { typedef unsigned short type; };
 template <>
 struct get_container_after<unsigned short> { typedef unsigned int type; };
 template <>
-struct get_container_after<unsigned int> { typedef unsigned long type; };
+struct get_container_after<unsigned int> { typedef unsigned long long type; };
 
 }  // namespace TypeTraits
 }  // namespace DMRC

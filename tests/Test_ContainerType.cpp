@@ -106,8 +106,8 @@ inline void ContainerType_Expectations<-1, false, true>() {
 	       typeid(short).name(),
 	       typeid(unsigned int).name(),
 	       typeid(int).name(),
-	       typeid(unsigned long).name(),
-	       typeid(long).name());
+	       typeid(unsigned long long).name(),
+	       typeid(long long).name());
 	return;
 }
 

@@ -84,10 +84,10 @@ TEST(Test_Internal_FPTypeTraits, basic_expectations_unsigned_int) {
 	FPTypeTraits_Expectations<32, unsigned int>::run();
 }
 
-TEST(Test_Internal_FPTypeTraits, basic_expectations_long) {
-	FPTypeTraits_Expectations<63, long>::run();
+TEST(Test_Internal_FPTypeTraits, basic_expectations_long_long) {
+	FPTypeTraits_Expectations<63, long long>::run();
 }
 
-TEST(Test_Internal_FPTypeTraits, basic_expectations_unsigned_long) {
-	FPTypeTraits_Expectations<64, unsigned long>::run();
+TEST(Test_Internal_FPTypeTraits, basic_expectations_unsigned_long_long) {
+	FPTypeTraits_Expectations<64, unsigned long long>::run();
 }
