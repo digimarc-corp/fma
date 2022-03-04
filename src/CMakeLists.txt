@@ -33,34 +33,10 @@ set (target_include_dirs_private
 	${CMAKE_CURRENT_LIST_DIR}/DMRC/FMA/Internal
 )
 
-set (target_compile_defs
-	UNICODE
-)
-
-set (target_link_libs_pub
-)
-
-set (target_link_libs_priv
-)
-
 #
 # Actually apply above settings to all the targets
 #
 
-add_library(${target_name} SHARED ${target_source_files})
+add_library(${target_name} INTERFACE ${target_source_files})
+target_include_directories(${target_name} INTERFACE ${CMAKE_CURRENT_LIST_DIR})
 
-foreach(target IN LISTS target_name)
-	set_target_properties(${target} PROPERTIES ${target_properties})
-
-	target_include_directories(${target}
-		PUBLIC ${target_include_dirs_public}
-		PRIVATE ${target_include_dirs_private}
-	)
-
-	target_compile_definitions(${target} PUBLIC ${target_compile_defs})
-
-	target_link_libraries(${target}
-		PUBLIC ${target_link_libs_pub}
-		PRIVATE ${target_link_libs_priv}
-	)
-endforeach()

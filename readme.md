@@ -17,8 +17,10 @@ The goal of FMA is to provide an elementary set of math operations for fixed-poi
 
 FMA uses $Q$ notation as defined by Texas Instruments ($Q_{m.n}$), usually omitting the number of numerical bits (i.e. $Q_n$). That is, `FMA::Simple<10>` is a fixed-point type with 10 fractional bits, since it is $Q_{10}$. Most containers default to the signed 32-bit `int` type to store raw data, meaning $Q_{10}$ is generally shorthand for $Q_{21.10}$. In FMA, that's exactly what it is (on most platforms).
 
+[Learn more about $Q$ notation here](https://en.wikipedia.org/wiki/Q_(number_format))
+
 ## Supported Containers
-* [`DMRC::FMA::Simple`](src/DMRC/FMA/Simple.hpp) - A simple fixed-point type that uses a consistent container size on any given platform, and no frills. Basic operations maintain $Q$ value.
+* [`DMRC::FMA::Simple`](src/DMRC/FMA/Internal/Simple.hpp) - A simple fixed-point type that uses a consistent container size on any given platform, and no frills. Basic operations maintain $Q$ value.
 
 ## Upcoming Containers
 * `DMRC::FMA::Flexible` - A container with user-configured containers, anything from a `uint8_t` to an `int64_t`.
@@ -81,4 +83,22 @@ x - y = 9
 x * y = 36
 x / y = 4
 a + b = 15
+```
+
+## Building
+### VS Code
+Install [recommended extensions](.vscode/extensions.json), and configure/build using your toolchain of choice.
+### Command Line
+#### Build
+```bash
+rm -rf ./build
+mkdir -p ./build
+cmake -B ./build
+cmake --build ./build -- -j8
+```
+#### Test
+After building...
+```bash
+cd build
+ctest
 ```
