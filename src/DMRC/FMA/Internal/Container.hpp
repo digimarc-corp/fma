@@ -1,10 +1,10 @@
 #ifndef DMRC_FMA_CONTAINER_HPP
 #define DMRC_FMA_CONTAINER_HPP
 
-#include "Internal/ContainerType.hpp"
-#include "Internal/FPTypeTraits.hpp"
-#include "Internal/EnableIf.hpp"
-#include "Internal/TypeTraits.hpp"
+#include "ContainerType.hpp"
+#include "FPTypeTraits.hpp"
+#include "EnableIf.hpp"
+#include "TypeTraits.hpp"
 #include "FPMath.hpp"
 
 namespace DMRC {

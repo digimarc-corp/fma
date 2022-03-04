@@ -13,5 +13,6 @@ cmake_minimum_required(VERSION 3.18)
 project(dmrc_fma)
 include(CTest)
 
+add_subdirectory(examples)
 add_subdirectory(src)
 add_subdirectory(tests)

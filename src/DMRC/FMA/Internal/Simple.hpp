@@ -4,9 +4,9 @@
 #include "Container.hpp"
 #include "FPMath.hpp"
 #include "FPShift.hpp"
-#include "Internal/EnableIf.hpp"
-#include "Internal/TypeTraits.hpp"
-#include "Internal/Inline.h"
+#include "EnableIf.hpp"
+#include "Inline.h"
+#include "TypeTraits.hpp"
 
 namespace DMRC {
 namespace FMA {
@@ -105,7 +105,7 @@ struct Simple : Container<N_val, int> {
 	template <typename T>
 	inline Simple& operator*=(const T& rhs) {
 		Simple<N> rhs_fp(rhs);
-		overflow_t result =  overflow_math_t::product(base_t::data, rhs_fp.data);
+		overflow_t result = overflow_math_t::product(base_t::data, rhs_fp.data);
 		base_t::data = static_cast<data_t>(result);
 		return *this;
 	}
@@ -140,7 +140,7 @@ template <int N>
 inline Simple<N> operator*(const Simple<N>& lhs, const Simple<N>& rhs) {
 	typedef typename Simple<N>::overflow_t overflow_t;
 	typedef typename Simple<N>::overflow_math_t overflow_math_t;
-	overflow_t tmp =  overflow_math_t::product(lhs.data, rhs.data);
+	overflow_t tmp = overflow_math_t::product(lhs.data, rhs.data);
 	return Simple<N>::from_raw(tmp);
 }
 

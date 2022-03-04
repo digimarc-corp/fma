@@ -2,8 +2,8 @@
 
 #include <string>
 
-#include <Internal/ContainerType.hpp>
-#include <Internal/TypeTraits.hpp>
+#include <DMRC/FMA/Internal/ContainerType.hpp>
+#include <DMRC/FMA/Internal/TypeTraits.hpp>
 
 using namespace DMRC::FMA::Internal;
 

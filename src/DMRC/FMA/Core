@@ -1,0 +1,7 @@
+// Core include for FMA -*- C++ -*-
+#ifndef DMRC_FMA_CORE
+#define DMRC_FMA_CORE
+
+#include "Internal/Simple.hpp"
+
+#endif // DMRC_FMA_CORE

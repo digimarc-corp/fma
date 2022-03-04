@@ -12,7 +12,7 @@ struct _fpshift {};
 
 /** @brief Shorthand to construct an empty _fpshift structure of a given value
  */
-#define fpshift(N) _fpshift<N>()
+#define fpshift(N) ::DMRC::FMA::_fpshift<N>()
 
 }  // namespace FMA
 }  // namespace DMRC

@@ -7,6 +7,7 @@ set (target_source_files
 	Test_FPMath.cpp
 	Test_FPTypeTraits.cpp
 	Test_Simple.cpp
+	Test_Typedefs.cpp
 )
 
 set (target_properties

@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <FPMath.hpp>
+#include <DMRC/FMA/Internal/FPMath.hpp>
 
 using namespace DMRC::FMA;
 

@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include <Simple.hpp>
+#include <DMRC/FMA/Internal/Simple.hpp>
 
 using namespace DMRC::FMA;
 
@@ -16,6 +16,16 @@ TEST(Test_Simple, ctor_primitive_int) {
 
 TEST(Test_Simple, ctor_primitive_float) {
 	Simple<15> x(10.5);
+	ASSERT_EQ(344064, x.data);
+}
+
+TEST(Test_Simple, ctor_static_cast_int) {
+	Simple<15> x = static_cast<Simple<15>>(10);
+	ASSERT_EQ(327680, x.data);
+}
+
+TEST(Test_Simple, ctor_static_cast_float) {
+	Simple<15> x = static_cast<Simple<15>>(10.5);
 	ASSERT_EQ(344064, x.data);
 }
 

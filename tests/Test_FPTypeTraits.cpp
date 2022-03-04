@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
-#include <Internal/FPTypeTraits.hpp>
-#include <Internal/TypeTraits.hpp>
+#include <DMRC/FMA/Internal/FPTypeTraits.hpp>
+#include <DMRC/FMA/Internal/TypeTraits.hpp>
 
 using namespace DMRC::FMA::Internal;
 using namespace DMRC::TypeTraits;
